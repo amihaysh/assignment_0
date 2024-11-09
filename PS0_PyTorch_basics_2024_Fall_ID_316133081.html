@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>78bef5d1472a4d1f88a02b49433f054a</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="pytorch---the-basics" class="cell markdown"
+id="n3aXk1o_qRLu">
+<h1>PyTorch - the Basics!</h1>
+<p>Advanced Learning 2024</p>
+<p>Lee Carlin</p>
+</section>
+<div class="cell markdown" id="O88JcDDEeVKl">
+<p>For SUBMISSION: ~~~ STUDENT ID: 316133081 ~~~ ~~~ STUDENT GIT LINK:
+<a href="https://github.com/amihaysh/assignment_0"
+class="uri">https://github.com/amihaysh/assignment_0</a> ~~~ In
+Addition, don't forget to add your ID to the files:
+<code>PS0_PyTorch_basics_2024_ID_[000000000].ipynb</code><br />
+<code>PS0_PyTorch_basics_2024_ID_[000000000].html</code></p>
+</div>
+<section id="1-what-is-pytorch" class="cell markdown" id="fCByaAJ1q-Gc">
+<h2>1. What is PyTorch?</h2>
+<p>PyTorch is a popular open-source library for machine learning,
+particularly well-suited for deep learning applications.<br />
+Here's a breakdown of its key features:</p>
+<ul>
+<li><strong>Deep Learning Framework:</strong> PyTorch provides tools and
+functionalities to build and train complex neural networks.</li>
+<li><strong>Pythonic Interface:</strong> Known for its Python-like
+syntax, PyTorch is considered user-friendly and easy to learn.</li>
+<li><strong>Flexibility:</strong> PyTorch offers both dynamic
+computational graphs (eager execution) and static graphs (graph mode)
+for model development.</li>
+<li><strong>Production Ready:</strong> PyTorch provides features like
+TorchScript to transition models from development to production
+seamlessly.</li>
+<li><strong>Scalability:</strong> PyTorch supports distributed training,
+enabling you to leverage multiple CPUs or GPUs to train models
+faster.</li>
+<li><strong>Rich Ecosystem:</strong> A growing ecosystem of libraries
+and tools built on PyTorch expands its capabilities for tasks like
+computer vision, natural language processing, and model
+interpretability.</li>
+</ul>
+</section>
+<div class="cell markdown" id="Y0NFG56arhsD">
+<p>We start by importing PyTorch's main objects:</p>
+</div>
+<div class="cell code" data-execution_count="1" id="phCzuWkUqPRk">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torch <span class="im">import</span> nn</span></code></pre></div>
+</div>
+<section id="pytorch-main-modules" class="cell markdown"
+id="jL-emQP0xtkr">
+<h3>PyTorch Main Modules</h3>
+</section>
+<div class="cell markdown" id="AKs60PcGucH7">
+<p><code>torch.nn</code>:</p>
+<p>In PyTorch, the <code>torch.nn</code> module provides the essential
+building blocks you need to construct and train neural networks. It
+offers a comprehensive collection of classes and functions that
+streamline the deep learning development process.</p>
+<p><em>Key Components:</em></p>
+<p><strong>Modules</strong>:<br />
+These are the fundamental units that perform specific operations on
+data. They can be combined to create complex neural network
+architectures. Common examples include:</p>
+<ul>
+<li>Linear Layers (nn.Linear): Apply linear transformations (y = xA^T +
+b) for feeding data forward through the network.</li>
+<li>Convolutional Layers (nn.Conv2d): Perform convolutions, especially
+useful for processing image data.</li>
+<li>Activation Layers (nn.ReLU, nn.Sigmoid): Introduce non-linearity
+into the network, allowing it to learn complex patterns.</li>
+<li>Normalization Layers (nn.BatchNorm2d): Normalize inputs to layers
+for faster and more stable training.</li>
+<li>Recurrent Layers (nn.LSTM, nn.GRU): Handle sequential data like text
+or time series.</li>
+<li>Dropout Layers (nn.Dropout): Introduce randomness by randomly
+dropping out neurons during training to prevent overfitting.</li>
+<li>Many More: PyTorch offers a vast selection of modules catering to
+diverse neural network architectures.</li>
+</ul>
+<p><strong>Containers</strong>:<br />
+These classes help you organize and structure your modules into
+hierarchical networks. They include:</p>
+<ul>
+<li>nn.Sequential: Stacks modules in a linear sequence, making it easy
+to define simple neural networks.</li>
+<li>nn.ModuleList: Holds other modules in a list, allowing for more
+flexible network structures.</li>
+<li>nn.ModuleDict: Manages sub-modules with dictionary-like access for
+complex topologies.</li>
+</ul>
+<p><strong>Loss Functions:</strong><br />
+Functions that measure the error between the network's predictions and
+the ground truth labels. These guide the training process by calculating
+the gradients used to update the network's weights. Common examples
+include:</p>
+<ul>
+<li>nn.CrossEntropyLoss: For multi-class classification problems.</li>
+<li>nn.MSELoss: For mean squared error calculations in regression
+tasks.</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="2" id="Tw5uR0na0s8J">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torch.utils.data <span class="im">import</span> DataLoader</span></code></pre></div>
+</div>
+<div class="cell markdown" id="YzHi6U5zvteu">
+<p><code>torch.utils.data.DataLoader</code>:</p>
+<p>In PyTorch, <code>torch.utils.data.DataLoader</code> is a powerful
+tool that simplifies how you load and manage data for training your deep
+learning models. It acts as an iterator, efficiently providing batches
+of data during the training process.</p>
+<p>Here's a breakdown of its key functionalities:</p>
+<p>Data Management Abstraction:</p>
+<pre><code>Decouples data loading logic from your model training code, promoting cleaner and more maintainable code.
+Handles complexities like batching, shuffling, and multi-processing data loading, freeing you from writing repetitive code.</code></pre>
+<p>Efficient Batching:</p>
+<pre><code>Groups data samples (images, text, etc.) into batches of a specified size (batch_size). Batching improves computational efficiency by utilizing vectorized operations on GPUs.
+Provides an optional collate_fn argument that allows you to customize how samples within a batch are combined. This can be useful for tasks like padding sequences to have the same length.</code></pre>
+</div>
+<div class="cell code" data-execution_count="3"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:36}"
+id="sbHK6GkR0vIH" data-outputId="a8496cde-45a7-4833-8191-8ffb1a696755">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>torch.__version__</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;type&quot;</span><span class="fu">:</span><span class="st">&quot;string&quot;</span><span class="fu">}</span></span></code></pre></div>
+</div>
+</div>
+<div class="cell markdown" id="Sut-qO6F0x1X">
+<p>In our course we use PyTorch version &gt;=2.2.1.<br />
+<code>cu121</code> refers to CUDA 12.1, a software layer that gives
+direct access to the GPU's virtual instruction set and parallel
+computational elements for the execution of compute kernels.</p>
+</div>
+<section id="2-tensors" class="cell markdown" id="HE9DKe-9s2aH">
+<h2>2. Tensors</h2>
+<p>In PyTorch, tensors are the fundamental data structure. They are
+similar to NumPy arrays but with some key advantages for deep
+learning:</p>
+<ul>
+<li><p><strong>Multi-dimensional Arrays</strong>: Like NumPy arrays,
+tensors can have multiple dimensions, making them suitable for
+representing data like images (2D), videos (3D), or sequences of text
+(1D).</p></li>
+<li><p><strong>Hardware Acceleration</strong>: PyTorch tensors can be
+moved to and run on GPUs or other hardware accelerators, significantly
+speeding up computations compared to CPUs for deep learning
+tasks.</p></li>
+<li><p><strong>Automatic Differentiation</strong>: A core feature in
+deep learning, automatic differentiation allows PyTorch to calculate
+gradients efficiently, which is essential for training neural networks.
+Regular NumPy arrays don't inherently support this.</p></li>
+<li><p><strong>Rich Functionality</strong>: PyTorch offers a variety of
+operations specifically designed for tensors, making it convenient to
+manipulate and analyze data for deep learning models.</p></li>
+</ul>
+<p>In essence, tensors in PyTorch act as the workhorses for your deep
+learning models. They store and process the data that gets fed into your
+network, undergoes computations, and ultimately leads to predictions or
+outputs.</p>
+</section>
+<div class="cell markdown" id="PrthmFbIfsXR">
+<p><strong>PyTorch tensor operations:</strong></p>
+<p>PyTorch tensor operations are the fundamental building blocks for
+working with data in your deep learning models. These operations allow
+you to manipulate, analyze, and transform tensors in various ways.
+Here's a breakdown of some common categories:</p>
+<ol>
+<li>Arithmetic Operations:</li>
+</ol>
+<p>These operations perform element-wise calculations between tensors or
+a tensor and a scalar value. They include:</p>
+<pre><code>Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Exponentiation (**)</code></pre>
+<p>These operations can be used for simple calculations or combined to
+create more complex expressions.</p>
+<ol>
+<li>Comparison Operations:</li>
+</ol>
+<p>These operations compare elements between tensors or a tensor and a
+scalar value, resulting in a tensor of booleans (True or False)
+indicating the comparison outcome. Examples include:</p>
+<pre><code>Equal (==)
+Not equal (!=)
+Greater than (&gt;)
+Less than (&lt;)
+Greater than or equal (&gt;=)
+Less than or equal (&lt;=)</code></pre>
+<p>Comparison operations are useful for filtering data or making
+decisions within your model.</p>
+<ol>
+<li>Broadcasting:</li>
+</ol>
+<p>A powerful feature in PyTorch, broadcasting allows operations between
+tensors of different shapes as long as they are compatible. For
+instance, you can add a scalar value to a tensor, or add a
+one-dimensional tensor to a two-dimensional tensor (as long as the
+dimensions match). PyTorch automatically expands the smaller tensor to
+match the larger one for element-wise operations.</p>
+<ol>
+<li>In-place Operations:</li>
+</ol>
+<p>Certain operations modify the original tensor they are applied to,
+denoted by a trailing underscore (_). Examples include:</p>
+<pre><code>x.add_(y) (equivalent to x = x + y)
+x.sub_(y) (equivalent to x = x - y)
+x.mul_(y) (equivalent to x = x * y)</code></pre>
+<p>These operations can be memory-efficient when modifying existing
+tensors is desired.</p>
+<ol>
+<li>Linear Algebra Operations:</li>
+</ol>
+<p>PyTorch provides functions for common linear algebra operations on
+tensors, including:</p>
+<pre><code>torch.matmul(a, b): Matrix multiplication between tensors a and b.
+torch.sum(input, dim=None): Sums the elements of a tensor along a specified dimension.
+torch.mean(input, dim=None): Computes the mean of the elements of a tensor along a specified dimension.</code></pre>
+<p>These operations are essential for various deep learning tasks like
+calculating activation outputs or loss functions.</p>
+<ol>
+<li>Tensor Reshaping and Indexing:</li>
+</ol>
+<p>PyTorch offers functionalities to manipulate the shape and access
+specific elements of tensors:</p>
+<pre><code>x.view(new_shape): Reshapes the tensor x into a new shape while keeping the total number of elements the same.
+x[index]: Accesses specific elements or sub-tensors using indexing syntax (similar to NumPy).</code></pre>
+<p>Reshaping and indexing are crucial for preparing data for specific
+layers in your neural network architecture.</p>
+<ol>
+<li>Element-wise Operations:</li>
+</ol>
+<p>These operations apply a function to each element of a tensor
+independently. PyTorch provides a rich set of element-wise functions
+like:</p>
+<pre><code>torch.relu(x): Applies the rectified linear unit (ReLU) activation function.
+torch.sigmoid(x): Applies the sigmoid activation function.
+torch.tanh(x): Applies the hyperbolic tangent (tanh) activation function.</code></pre>
+<p>Element-wise operations are fundamental for introducing non-linearity
+and transforming data in deep learning models.</p>
+<ol>
+<li>Random Operations:</li>
+</ol>
+<p>PyTorch offers functions for generating random tensors or modifying
+existing ones with randomness:</p>
+<pre><code>torch.rand(shape): Generates a random tensor filled with uniformly distributed values between 0 and 1.
+torch.randn(shape): Generates a random tensor filled with values from a standard normal distribution.</code></pre>
+<p>These operations are useful for data augmentation techniques or
+initializing weights in your network.</p>
+<p>By understanding and effectively using these PyTorch tensor
+operations, you can build and manipulate your deep learning models with
+greater flexibility and control.</p>
+</div>
+<div class="cell markdown" id="H9nYSKhmoAQy">
+<p>Some examples:</p>
+</div>
+<div class="cell code" data-execution_count="4"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="DMm7DspXrWpj" data-outputId="375296bd-913c-466e-e7bf-36a11614c2a0">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>lst_of_lsts <span class="op">=</span> [[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>],[<span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>, <span class="dv">8</span>]]</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>tens <span class="op">=</span> torch.tensor(lst_of_lsts)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;tens: </span><span class="sc">{</span>tens<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Shape of tensor: </span><span class="sc">{</span>tens<span class="sc">.</span>shape<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Datatype of tensor: </span><span class="sc">{</span>tens<span class="sc">.</span>dtype<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Device tensor is stored on: </span><span class="sc">{</span>tens<span class="sc">.</span>device<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>tens: tensor([[1, 2, 3, 4],
+        [5, 6, 7, 8]])
+Shape of tensor: torch.Size([2, 4])
+Datatype of tensor: torch.int64
+Device tensor is stored on: cpu
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="5"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="cLgpeDPeoDpG" data-outputId="c0d1fd26-e0ab-44e7-b754-ac9b08b2b71e">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>shape <span class="op">=</span> (<span class="dv">2</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>rand_tensor <span class="op">=</span> torch.rand(shape)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>ones_tensor <span class="op">=</span> torch.ones(shape)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>zeros_tensor <span class="op">=</span> torch.zeros(shape)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Random Tensor: </span><span class="ch">\n</span><span class="ss"> </span><span class="sc">{</span>rand_tensor<span class="sc">}</span><span class="ss"> </span><span class="ch">\n</span><span class="ss">&quot;</span>)</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Ones Tensor: </span><span class="ch">\n</span><span class="ss"> </span><span class="sc">{</span>ones_tensor<span class="sc">}</span><span class="ss"> </span><span class="ch">\n</span><span class="ss">&quot;</span>)</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Zeros Tensor: </span><span class="ch">\n</span><span class="ss"> </span><span class="sc">{</span>zeros_tensor<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Random Tensor: 
+ tensor([[[0.8560, 0.8388, 0.7360],
+         [0.8036, 0.3159, 0.3066]],
+
+        [[0.2888, 0.1105, 0.4541],
+         [0.1843, 0.0681, 0.5922]]]) 
+
+Ones Tensor: 
+ tensor([[[1., 1., 1.],
+         [1., 1., 1.]],
+
+        [[1., 1., 1.],
+         [1., 1., 1.]]]) 
+
+Zeros Tensor: 
+ tensor([[[0., 0., 0.],
+         [0., 0., 0.]],
+
+        [[0., 0., 0.],
+         [0., 0., 0.]]])
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="6"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="5ADu57CsoykL" data-outputId="dc427c04-83e3-44d4-f3cf-cfd6bd527e70">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>shpe <span class="op">=</span> (<span class="dv">100</span>,<span class="dv">3</span>)</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>t1 <span class="op">=</span> torch.rand(shpe)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>t2 <span class="op">=</span> torch.rand(shpe)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>t3 <span class="op">=</span> torch.rand(shpe)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>t4<span class="op">=</span>torch.cat([t1,t2,t3],dim<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;t4.shape: </span><span class="sc">{</span>t4<span class="sc">.</span>shape<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>t5<span class="op">=</span>torch.cat([t1,t2,t3],dim<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;t5.shape: </span><span class="sc">{</span>t5<span class="sc">.</span>shape<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>t4.shape: torch.Size([300, 3])
+t5.shape: torch.Size([100, 9])
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="7"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="NwV4Fnweo1OT" data-outputId="3ed7228e-f0f7-4437-c589-88c947ad0bd2">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> torch.rand(<span class="dv">100</span>,<span class="dv">100</span>)</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>X_cent <span class="op">=</span> X <span class="op">-</span> X.mean(dim<span class="op">=</span><span class="dv">1</span>, keepdim<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>covX <span class="op">=</span> X_cent.T<span class="op">@</span>X_cent</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>covX</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<pre><code>tensor([[ 8.6487,  0.4137,  0.2864,  ..., -1.2689, -0.2099, -1.4781],
+        [ 0.4137,  9.2644,  0.8763,  ...,  0.0981, -0.4607,  0.7627],
+        [ 0.2864,  0.8763,  8.0859,  ..., -0.5915, -1.0245,  0.4344],
+        ...,
+        [-1.2689,  0.0981, -0.5915,  ...,  8.0523, -0.7799, -0.6304],
+        [-0.2099, -0.4607, -1.0245,  ..., -0.7799,  8.6987,  0.5653],
+        [-1.4781,  0.7627,  0.4344,  ..., -0.6304,  0.5653,  7.9003]])</code></pre>
+</div>
+</div>
+<section id="data--handling" class="cell markdown" id="2qKr9lixtGgO">
+<h2>Data &amp; Handling</h2>
+</section>
+<section id="pytorch-datasets" class="cell markdown" id="9TJNXJdfuHxH">
+<h3>PyTorch Datasets</h3>
+</section>
+<div class="cell markdown" id="YZEnT7gHzWUp">
+<p>Deep networks are versatile tools that can be adapted to various data
+types by leveraging appropriate pre-processing techniques and network
+architectures. PyTorch, like other deep learning libraries, can handle a
+wide array of data:</p>
+<ul>
+<li>images</li>
+<li>audio</li>
+<li>text data</li>
+<li>tabluar (numerical, categorical, mixed)</li>
+<li>multimodal Data</li>
+<li>other</li>
+</ul>
+</div>
+<div class="cell markdown" id="GbZ5lmtzuKlb">
+<p>PyTorch also offers built-in vision specific datasets as part of the
+<code>torchvision.datasets</code> <a
+href="https://pytorch.org/vision/stable/datasets.html">module</a>:</p>
+</div>
+<div class="cell code" data-execution_count="8" id="9kGSr-D-y42B">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torchvision <span class="im">import</span> datasets</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="9"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ML5of6dVzEAY" data-outputId="d17a8e9b-2557-454d-b017-b7ca226b634e">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="bu">dir</span>(datasets)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<pre><code>[&#39;CIFAR10&#39;,
+ &#39;CIFAR100&#39;,
+ &#39;CLEVRClassification&#39;,
+ &#39;CREStereo&#39;,
+ &#39;Caltech101&#39;,
+ &#39;Caltech256&#39;,
+ &#39;CarlaStereo&#39;,
+ &#39;CelebA&#39;,
+ &#39;Cityscapes&#39;,
+ &#39;CocoCaptions&#39;,
+ &#39;CocoDetection&#39;,
+ &#39;Country211&#39;,
+ &#39;DTD&#39;,
+ &#39;DatasetFolder&#39;,
+ &#39;EMNIST&#39;,
+ &#39;ETH3DStereo&#39;,
+ &#39;EuroSAT&#39;,
+ &#39;FER2013&#39;,
+ &#39;FGVCAircraft&#39;,
+ &#39;FakeData&#39;,
+ &#39;FallingThingsStereo&#39;,
+ &#39;FashionMNIST&#39;,
+ &#39;Flickr30k&#39;,
+ &#39;Flickr8k&#39;,
+ &#39;Flowers102&#39;,
+ &#39;FlyingChairs&#39;,
+ &#39;FlyingThings3D&#39;,
+ &#39;Food101&#39;,
+ &#39;GTSRB&#39;,
+ &#39;HD1K&#39;,
+ &#39;HMDB51&#39;,
+ &#39;INaturalist&#39;,
+ &#39;ImageFolder&#39;,
+ &#39;ImageNet&#39;,
+ &#39;Imagenette&#39;,
+ &#39;InStereo2k&#39;,
+ &#39;KMNIST&#39;,
+ &#39;Kinetics&#39;,
+ &#39;Kitti&#39;,
+ &#39;Kitti2012Stereo&#39;,
+ &#39;Kitti2015Stereo&#39;,
+ &#39;KittiFlow&#39;,
+ &#39;LFWPairs&#39;,
+ &#39;LFWPeople&#39;,
+ &#39;LSUN&#39;,
+ &#39;LSUNClass&#39;,
+ &#39;MNIST&#39;,
+ &#39;Middlebury2014Stereo&#39;,
+ &#39;MovingMNIST&#39;,
+ &#39;Omniglot&#39;,
+ &#39;OxfordIIITPet&#39;,
+ &#39;PCAM&#39;,
+ &#39;PhotoTour&#39;,
+ &#39;Places365&#39;,
+ &#39;QMNIST&#39;,
+ &#39;RenderedSST2&#39;,
+ &#39;SBDataset&#39;,
+ &#39;SBU&#39;,
+ &#39;SEMEION&#39;,
+ &#39;STL10&#39;,
+ &#39;SUN397&#39;,
+ &#39;SVHN&#39;,
+ &#39;SceneFlowStereo&#39;,
+ &#39;Sintel&#39;,
+ &#39;SintelStereo&#39;,
+ &#39;StanfordCars&#39;,
+ &#39;UCF101&#39;,
+ &#39;USPS&#39;,
+ &#39;VOCDetection&#39;,
+ &#39;VOCSegmentation&#39;,
+ &#39;VisionDataset&#39;,
+ &#39;WIDERFace&#39;,
+ &#39;__all__&#39;,
+ &#39;__builtins__&#39;,
+ &#39;__cached__&#39;,
+ &#39;__doc__&#39;,
+ &#39;__file__&#39;,
+ &#39;__getattr__&#39;,
+ &#39;__loader__&#39;,
+ &#39;__name__&#39;,
+ &#39;__package__&#39;,
+ &#39;__path__&#39;,
+ &#39;__spec__&#39;,
+ &#39;_optical_flow&#39;,
+ &#39;_stereo_matching&#39;,
+ &#39;caltech&#39;,
+ &#39;celeba&#39;,
+ &#39;cifar&#39;,
+ &#39;cityscapes&#39;,
+ &#39;clevr&#39;,
+ &#39;coco&#39;,
+ &#39;country211&#39;,
+ &#39;dtd&#39;,
+ &#39;eurosat&#39;,
+ &#39;fakedata&#39;,
+ &#39;fer2013&#39;,
+ &#39;fgvc_aircraft&#39;,
+ &#39;flickr&#39;,
+ &#39;flowers102&#39;,
+ &#39;folder&#39;,
+ &#39;food101&#39;,
+ &#39;gtsrb&#39;,
+ &#39;hmdb51&#39;,
+ &#39;imagenet&#39;,
+ &#39;imagenette&#39;,
+ &#39;inaturalist&#39;,
+ &#39;kinetics&#39;,
+ &#39;kitti&#39;,
+ &#39;lfw&#39;,
+ &#39;lsun&#39;,
+ &#39;mnist&#39;,
+ &#39;moving_mnist&#39;,
+ &#39;omniglot&#39;,
+ &#39;oxford_iiit_pet&#39;,
+ &#39;pcam&#39;,
+ &#39;phototour&#39;,
+ &#39;places365&#39;,
+ &#39;rendered_sst2&#39;,
+ &#39;sbd&#39;,
+ &#39;sbu&#39;,
+ &#39;semeion&#39;,
+ &#39;stanford_cars&#39;,
+ &#39;stl10&#39;,
+ &#39;sun397&#39;,
+ &#39;svhn&#39;,
+ &#39;ucf101&#39;,
+ &#39;usps&#39;,
+ &#39;utils&#39;,
+ &#39;video_utils&#39;,
+ &#39;vision&#39;,
+ &#39;voc&#39;,
+ &#39;widerface&#39;]</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="6CCQWfKR0etj">
+
+</div>
+<div class="cell code" data-execution_count="10"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="WQjlYm3I3bIj" data-outputId="83d340a1-eb5a-46aa-9ad6-08e400300463">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torchvision.transforms <span class="im">import</span> ToTensor</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>train_source <span class="op">=</span> training_data <span class="op">=</span> datasets.FashionMNIST(</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>    root<span class="op">=</span><span class="st">&quot;data&quot;</span>,</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>    train<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>    download<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>    transform<span class="op">=</span>ToTensor()</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>train_source</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz to data/FashionMNIST/raw/train-images-idx3-ubyte.gz
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>100%|██████████| 26.4M/26.4M [00:02&lt;00:00, 11.7MB/s]
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Extracting data/FashionMNIST/raw/train-images-idx3-ubyte.gz to data/FashionMNIST/raw
+
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-labels-idx1-ubyte.gz
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-labels-idx1-ubyte.gz to data/FashionMNIST/raw/train-labels-idx1-ubyte.gz
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>100%|██████████| 29.5k/29.5k [00:00&lt;00:00, 202kB/s]
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Extracting data/FashionMNIST/raw/train-labels-idx1-ubyte.gz to data/FashionMNIST/raw
+
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-images-idx3-ubyte.gz
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-images-idx3-ubyte.gz to data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>100%|██████████| 4.42M/4.42M [00:01&lt;00:00, 3.69MB/s]
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Extracting data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz to data/FashionMNIST/raw
+
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-labels-idx1-ubyte.gz
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-labels-idx1-ubyte.gz to data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>100%|██████████| 5.15k/5.15k [00:00&lt;00:00, 5.47MB/s]</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Extracting data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz to data/FashionMNIST/raw
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="10">
+<pre><code>Dataset FashionMNIST
+    Number of datapoints: 60000
+    Root location: data
+    Split: Train
+    StandardTransform
+Transform: ToTensor()</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="11"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:203}"
+id="uq7YInbH3z4K" data-outputId="5fdd4cc9-0015-485d-9cb6-a55f7aa41f21">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(train_source)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<div style="max-width:800px; border: 1px solid var(--colab-border-color);"><style>
+      pre.function-repr-contents {
+        overflow-x: auto;
+        padding: 8px 12px;
+        max-height: 500px;
+      }
+
+      pre.function-repr-contents.function-repr-contents-collapsed {
+        cursor: pointer;
+        max-height: 100px;
+      }
+    </style>
+    <pre style="white-space: initial; background:
+         var(--colab-secondary-surface-color); padding: 8px 12px;
+         border-bottom: 1px solid var(--colab-border-color);"><b>torchvision.datasets.mnist.FashionMNIST</b><br/>def __init__(root: Union[str, Path], train: bool=True, transform: Optional[Callable]=None, target_transform: Optional[Callable]=None, download: bool=False) -&gt; None</pre><pre class="function-repr-contents function-repr-contents-collapsed" style=""><a class="filepath" style="display:none" href="#">/usr/local/lib/python3.10/dist-packages/torchvision/datasets/mnist.py</a>`Fashion-MNIST &lt;https://github.com/zalandoresearch/fashion-mnist&gt;`_ Dataset.
+
+Args:
+    root (str or ``pathlib.Path``): Root directory of dataset where ``FashionMNIST/raw/train-images-idx3-ubyte``
+        and  ``FashionMNIST/raw/t10k-images-idx3-ubyte`` exist.
+    train (bool, optional): If True, creates dataset from ``train-images-idx3-ubyte``,
+        otherwise from ``t10k-images-idx3-ubyte``.
+    download (bool, optional): If True, downloads the dataset from the internet and
+        puts it in root directory. If dataset is already downloaded, it is not
+        downloaded again.
+    transform (callable, optional): A function/transform that  takes in a PIL image
+        and returns a transformed version. E.g, ``transforms.RandomCrop``
+    target_transform (callable, optional): A function/transform that takes in the
+        target and transforms it.</pre>
+      <script>
+      if (google.colab.kernel.accessAllowed && google.colab.files && google.colab.files.view) {
+        for (const element of document.querySelectorAll('.filepath')) {
+          element.style.display = 'block'
+          element.onclick = (event) => {
+            event.preventDefault();
+            event.stopPropagation();
+            google.colab.files.view(element.textContent, 203);
+          };
+        }
+      }
+      for (const element of document.querySelectorAll('.function-repr-contents')) {
+        element.onclick = (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+          element.classList.toggle('function-repr-contents-collapsed');
+        };
+      }
+      </script>
+      </div>
+</div>
+</div>
+<div class="cell code" data-execution_count="12"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="CI0VZXWe5oL_" data-outputId="34daed48-391f-48dd-8971-ca4473490b2a">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;the shape of the data: </span><span class="sc">{</span>train_source<span class="sc">.</span>data<span class="sc">.</span>shape<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>the shape of the data: torch.Size([60000, 28, 28])
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="QvCx0iKV5uPl">
+<p>We can visualize the data using matplotlib:</p>
+</div>
+<div class="cell code" data-execution_count="13" id="UpM3phXL41eL">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="14"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:502}"
+id="UGVwuqTP4w6B" data-outputId="13548030-9917-4600-b9a8-9f4ca48b68b8">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>labels_map <span class="op">=</span> {</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>    <span class="dv">0</span>: <span class="st">&quot;T-Shirt&quot;</span>,</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span>: <span class="st">&quot;Trouser&quot;</span>,</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span>: <span class="st">&quot;Pullover&quot;</span>,</span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">3</span>: <span class="st">&quot;Dress&quot;</span>,</span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">4</span>: <span class="st">&quot;Coat&quot;</span>,</span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">5</span>: <span class="st">&quot;Sandal&quot;</span>,</span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a>    <span class="dv">6</span>: <span class="st">&quot;Shirt&quot;</span>,</span>
+<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a>    <span class="dv">7</span>: <span class="st">&quot;Sneaker&quot;</span>,</span>
+<span id="cb41-10"><a href="#cb41-10" aria-hidden="true" tabindex="-1"></a>    <span class="dv">8</span>: <span class="st">&quot;Bag&quot;</span>,</span>
+<span id="cb41-11"><a href="#cb41-11" aria-hidden="true" tabindex="-1"></a>    <span class="dv">9</span>: <span class="st">&quot;Ankle Boot&quot;</span>,</span>
+<span id="cb41-12"><a href="#cb41-12" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb41-13"><a href="#cb41-13" aria-hidden="true" tabindex="-1"></a>figure <span class="op">=</span> plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">8</span>))</span>
+<span id="cb41-14"><a href="#cb41-14" aria-hidden="true" tabindex="-1"></a>cols, rows <span class="op">=</span> <span class="dv">5</span>, <span class="dv">2</span></span>
+<span id="cb41-15"><a href="#cb41-15" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, cols <span class="op">*</span> rows <span class="op">+</span> <span class="dv">1</span>):</span>
+<span id="cb41-16"><a href="#cb41-16" aria-hidden="true" tabindex="-1"></a>    sample_idx <span class="op">=</span> torch.randint(<span class="bu">len</span>(train_source), size<span class="op">=</span>(<span class="dv">1</span>,)).item()</span>
+<span id="cb41-17"><a href="#cb41-17" aria-hidden="true" tabindex="-1"></a>    img, label <span class="op">=</span> train_source[sample_idx]</span>
+<span id="cb41-18"><a href="#cb41-18" aria-hidden="true" tabindex="-1"></a>    figure.add_subplot(rows, cols, i)</span>
+<span id="cb41-19"><a href="#cb41-19" aria-hidden="true" tabindex="-1"></a>    plt.title(labels_map[label])</span>
+<span id="cb41-20"><a href="#cb41-20" aria-hidden="true" tabindex="-1"></a>    plt.axis(<span class="st">&quot;off&quot;</span>)</span>
+<span id="cb41-21"><a href="#cb41-21" aria-hidden="true" tabindex="-1"></a>    plt.imshow(img.squeeze(), cmap<span class="op">=</span><span class="st">&quot;gray&quot;</span>)</span>
+<span id="cb41-22"><a href="#cb41-22" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_9a61d2a7bd16414ab414ea137a162c0b/b20c434b56f5a752aac97d89f344bd662a671895.png" /></p>
+</div>
+</div>
+<section id="dataloader" class="cell markdown" id="WUArfaqcuF9p">
+<h3>DataLoader</h3>
+</section>
+<div class="cell markdown" id="ptoV6URJtMyg">
+<p>As mentioned above, the <code>torch.utils.data.DataLoader</code> is
+responsible for handling data during the deep learning model
+training.</p>
+<p>Key Parameters:</p>
+<ul>
+<li>dataset (Dataset): The PyTorch dataset you want to load data from
+(your custom class representing the data and how to access samples and
+labels).</li>
+<li>batch_size (int, optional): The number of samples in a batch
+(default: 1).</li>
+<li>shuffle (bool, optional): Whether to shuffle the data at the
+beginning of each epoch (default: False).</li>
+<li>sampler (Sampler, optional): A custom sampler object for controlling
+data loading order (default: None).</li>
+<li>collate_fn (callable, optional): A function to customize how samples
+within a batch are combined (default: None). Useful for padding
+sequences.</li>
+<li>pin_memory=True (bool, optional): If using a GPU, pin fetched data
+tensors in pinned memory for faster transfer (default: False).</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="15"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:273}"
+id="4XyudTrorICU" data-outputId="6faa56ff-24d6-4aa5-e786-172ac98817cb">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>train <span class="op">=</span> DataLoader(train_source, batch_size<span class="op">=</span><span class="dv">64</span>, shuffle<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(train)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<div style="max-width:800px; border: 1px solid var(--colab-border-color);"><style>
+      pre.function-repr-contents {
+        overflow-x: auto;
+        padding: 8px 12px;
+        max-height: 500px;
+      }
+
+      pre.function-repr-contents.function-repr-contents-collapsed {
+        cursor: pointer;
+        max-height: 100px;
+      }
+    </style>
+    <pre style="white-space: initial; background:
+         var(--colab-secondary-surface-color); padding: 8px 12px;
+         border-bottom: 1px solid var(--colab-border-color);"><b>torch.utils.data.dataloader.DataLoader</b><br/>def __init__(dataset: Dataset[_T_co], batch_size: Optional[int]=1, shuffle: Optional[bool]=None, sampler: Union[Sampler, Iterable, None]=None, batch_sampler: Union[Sampler[List], Iterable[List], None]=None, num_workers: int=0, collate_fn: Optional[_collate_fn_t]=None, pin_memory: bool=False, drop_last: bool=False, timeout: float=0, worker_init_fn: Optional[_worker_init_fn_t]=None, multiprocessing_context=None, generator=None, *, prefetch_factor: Optional[int]=None, persistent_workers: bool=False, pin_memory_device: str=&#x27;&#x27;)</pre><pre class="function-repr-contents function-repr-contents-collapsed" style=""><a class="filepath" style="display:none" href="#">/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py</a>Data loader combines a dataset and a sampler, and provides an iterable over the given dataset.
+
+The :class:`~torch.utils.data.DataLoader` supports both map-style and
+iterable-style datasets with single- or multi-process loading, customizing
+loading order and optional automatic batching (collation) and memory pinning.
+
+See :py:mod:`torch.utils.data` documentation page for more details.
+
+Args:
+    dataset (Dataset): dataset from which to load the data.
+    batch_size (int, optional): how many samples per batch to load
+        (default: ``1``).
+    shuffle (bool, optional): set to ``True`` to have the data reshuffled
+        at every epoch (default: ``False``).
+    sampler (Sampler or Iterable, optional): defines the strategy to draw
+        samples from the dataset. Can be any ``Iterable`` with ``__len__``
+        implemented. If specified, :attr:`shuffle` must not be specified.
+    batch_sampler (Sampler or Iterable, optional): like :attr:`sampler`, but
+        returns a batch of indices at a time. Mutually exclusive with
+        :attr:`batch_size`, :attr:`shuffle`, :attr:`sampler`,
+        and :attr:`drop_last`.
+    num_workers (int, optional): how many subprocesses to use for data
+        loading. ``0`` means that the data will be loaded in the main process.
+        (default: ``0``)
+    collate_fn (Callable, optional): merges a list of samples to form a
+        mini-batch of Tensor(s).  Used when using batched loading from a
+        map-style dataset.
+    pin_memory (bool, optional): If ``True``, the data loader will copy Tensors
+        into device/CUDA pinned memory before returning them.  If your data elements
+        are a custom type, or your :attr:`collate_fn` returns a batch that is a custom type,
+        see the example below.
+    drop_last (bool, optional): set to ``True`` to drop the last incomplete batch,
+        if the dataset size is not divisible by the batch size. If ``False`` and
+        the size of dataset is not divisible by the batch size, then the last batch
+        will be smaller. (default: ``False``)
+    timeout (numeric, optional): if positive, the timeout value for collecting a batch
+        from workers. Should always be non-negative. (default: ``0``)
+    worker_init_fn (Callable, optional): If not ``None``, this will be called on each
+        worker subprocess with the worker id (an int in ``[0, num_workers - 1]``) as
+        input, after seeding and before data loading. (default: ``None``)
+    multiprocessing_context (str or multiprocessing.context.BaseContext, optional): If
+        ``None``, the default `multiprocessing context`_ of your operating system will
+        be used. (default: ``None``)
+    generator (torch.Generator, optional): If not ``None``, this RNG will be used
+        by RandomSampler to generate random indexes and multiprocessing to generate
+        ``base_seed`` for workers. (default: ``None``)
+    prefetch_factor (int, optional, keyword-only arg): Number of batches loaded
+        in advance by each worker. ``2`` means there will be a total of
+        2 * num_workers batches prefetched across all workers. (default value depends
+        on the set value for num_workers. If value of num_workers=0 default is ``None``.
+        Otherwise, if value of ``num_workers &gt; 0`` default is ``2``).
+    persistent_workers (bool, optional): If ``True``, the data loader will not shut down
+        the worker processes after a dataset has been consumed once. This allows to
+        maintain the workers `Dataset` instances alive. (default: ``False``)
+    pin_memory_device (str, optional): the device to :attr:`pin_memory` to if ``pin_memory`` is
+        ``True``.
+
+
+.. warning:: If the ``spawn`` start method is used, :attr:`worker_init_fn`
+             cannot be an unpicklable object, e.g., a lambda function. See
+             :ref:`multiprocessing-best-practices` on more details related
+             to multiprocessing in PyTorch.
+
+.. warning:: ``len(dataloader)`` heuristic is based on the length of the sampler used.
+             When :attr:`dataset` is an :class:`~torch.utils.data.IterableDataset`,
+             it instead returns an estimate based on ``len(dataset) / batch_size``, with proper
+             rounding depending on :attr:`drop_last`, regardless of multi-process loading
+             configurations. This represents the best guess PyTorch can make because PyTorch
+             trusts user :attr:`dataset` code in correctly handling multi-process
+             loading to avoid duplicate data.
+
+             However, if sharding results in multiple workers having incomplete last batches,
+             this estimate can still be inaccurate, because (1) an otherwise complete batch can
+             be broken into multiple ones and (2) more than one batch worth of samples can be
+             dropped when :attr:`drop_last` is set. Unfortunately, PyTorch can not detect such
+             cases in general.
+
+             See `Dataset Types`_ for more details on these two types of datasets and how
+             :class:`~torch.utils.data.IterableDataset` interacts with
+             `Multi-process data loading`_.
+
+.. warning:: See :ref:`reproducibility`, and :ref:`dataloader-workers-random-seed`, and
+             :ref:`data-loading-randomness` notes for random seed related questions.
+
+.. _multiprocessing context:
+    https://docs.python.org/3/library/multiprocessing.html#contexts-and-start-methods</pre>
+      <script>
+      if (google.colab.kernel.accessAllowed && google.colab.files && google.colab.files.view) {
+        for (const element of document.querySelectorAll('.filepath')) {
+          element.style.display = 'block'
+          element.onclick = (event) => {
+            event.preventDefault();
+            event.stopPropagation();
+            google.colab.files.view(element.textContent, 130);
+          };
+        }
+      }
+      for (const element of document.querySelectorAll('.function-repr-contents')) {
+        element.onclick = (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+          element.classList.toggle('function-repr-contents-collapsed');
+        };
+      }
+      </script>
+      </div>
+</div>
+</div>
+<div class="cell markdown" id="FdKFXjkH6NPg">
+<blockquote>
+<p>The Dataset retrieves our dataset’s features and labels one sample at
+a time. While training a model, we typically want to pass samples in
+“minibatches”, reshuffle the data at every epoch to reduce model
+overfitting, and use Python’s multiprocessing to speed up data
+retrieval.</p>
+</blockquote>
+</div>
+<div class="cell code" data-execution_count="16"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="vBYbBhat6DBf" data-outputId="38a577be-eeef-498d-be87-6764f1fbcfbe">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">5</span>):</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>  btch <span class="op">=</span> <span class="bu">next</span>(<span class="bu">iter</span>(train))</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(<span class="ss">f&quot;batch shape: </span><span class="sc">{</span>btch[<span class="dv">0</span>]<span class="sc">.</span>shape<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>batch shape: torch.Size([64, 1, 28, 28])
+batch shape: torch.Size([64, 1, 28, 28])
+batch shape: torch.Size([64, 1, 28, 28])
+batch shape: torch.Size([64, 1, 28, 28])
+batch shape: torch.Size([64, 1, 28, 28])
+</code></pre>
+</div>
+</div>
+<section id="practice-questions" class="cell markdown"
+id="KOok4gOvaBuW">
+<h2>Practice Questions</h2>
+</section>
+<div class="cell markdown" id="B3Fby9XPaJjR">
+<p>Produce the following tensors:</p>
+<ol>
+<li>Create a tensor from the list <code>[1, 2, 3]</code></li>
+<li>Create a tensor from a NumPy array of shape (50,10)</li>
+<li>Specify a data type and device option for a tensor with
+<code>[7, 8, 9]</code>, <code>[.5,0,.7]</code></li>
+<li>Create a zero tensor of size (3, 4)</li>
+<li>Create a ones tensor of size (2, 2, 2) with dtype float</li>
+<li>Create a tensor of size (5, 5) with random values from a normal
+distribution</li>
+<li>Create a new tensor by cloning an existing tensor</li>
+<li>Create a new tensor by reshaping an existing tensor</li>
+<li>Create a new tensor by concatenating two existing tensors</li>
+<li>Perform operations with different data types</li>
+</ol>
+</div>
+<div class="cell code" data-execution_count="17"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ASqrBB6KeImk" data-outputId="e52bbd9f-8f5a-4756-d638-f06ad1905171">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="co"># YOUR CODE HERE</span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Q1</span></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>t1<span class="op">=</span>torch.tensor([<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>])</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t1)</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Q2</span></span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>t2<span class="op">=</span>torch.from_numpy(np.random.rand(<span class="dv">50</span>,<span class="dv">10</span>))</span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t2)</span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a><span class="co">#Q3</span></span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a>t3<span class="op">=</span>torch.tensor([[<span class="dv">7</span>, <span class="dv">8</span>, <span class="dv">9</span>], [<span class="fl">0.5</span>,<span class="dv">0</span>,<span class="fl">0.7</span>]], dtype<span class="op">=</span>torch.<span class="bu">float</span>, device<span class="op">=</span><span class="st">&#39;cpu&#39;</span>)</span>
+<span id="cb45-11"><a href="#cb45-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t3)</span>
+<span id="cb45-12"><a href="#cb45-12" aria-hidden="true" tabindex="-1"></a><span class="co">#Q4</span></span>
+<span id="cb45-13"><a href="#cb45-13" aria-hidden="true" tabindex="-1"></a>t4<span class="op">=</span>torch.zeros((<span class="dv">3</span>, <span class="dv">4</span>))</span>
+<span id="cb45-14"><a href="#cb45-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t4)</span>
+<span id="cb45-15"><a href="#cb45-15" aria-hidden="true" tabindex="-1"></a><span class="co">#Q5</span></span>
+<span id="cb45-16"><a href="#cb45-16" aria-hidden="true" tabindex="-1"></a>t5<span class="op">=</span>torch.ones((<span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">2</span>), dtype<span class="op">=</span>torch.<span class="bu">float</span>)</span>
+<span id="cb45-17"><a href="#cb45-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t5)</span>
+<span id="cb45-18"><a href="#cb45-18" aria-hidden="true" tabindex="-1"></a><span class="co">#Q6</span></span>
+<span id="cb45-19"><a href="#cb45-19" aria-hidden="true" tabindex="-1"></a>t6<span class="op">=</span>torch.randn((<span class="dv">5</span>, <span class="dv">5</span>))</span>
+<span id="cb45-20"><a href="#cb45-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t6)</span>
+<span id="cb45-21"><a href="#cb45-21" aria-hidden="true" tabindex="-1"></a><span class="co">#Q7</span></span>
+<span id="cb45-22"><a href="#cb45-22" aria-hidden="true" tabindex="-1"></a>t7<span class="op">=</span>t6.clone()</span>
+<span id="cb45-23"><a href="#cb45-23" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t7)</span>
+<span id="cb45-24"><a href="#cb45-24" aria-hidden="true" tabindex="-1"></a><span class="co">#Q8</span></span>
+<span id="cb45-25"><a href="#cb45-25" aria-hidden="true" tabindex="-1"></a>t8<span class="op">=</span>t5.reshape(<span class="dv">2</span>,<span class="dv">4</span>)</span>
+<span id="cb45-26"><a href="#cb45-26" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t8)</span>
+<span id="cb45-27"><a href="#cb45-27" aria-hidden="true" tabindex="-1"></a><span class="co">#Q9</span></span>
+<span id="cb45-28"><a href="#cb45-28" aria-hidden="true" tabindex="-1"></a>t9<span class="op">=</span>torch.cat((t6,t7),dim<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb45-29"><a href="#cb45-29" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t9)</span>
+<span id="cb45-30"><a href="#cb45-30" aria-hidden="true" tabindex="-1"></a><span class="co">#Q10</span></span>
+<span id="cb45-31"><a href="#cb45-31" aria-hidden="true" tabindex="-1"></a>t10<span class="op">=</span>t6<span class="op">+</span>t7</span>
+<span id="cb45-32"><a href="#cb45-32" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t10)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>tensor([1, 2, 3])
+tensor([[0.2159, 0.7976, 0.3601, 0.6594, 0.5764, 0.8590, 0.2058, 0.6240, 0.6949,
+         0.7365],
+        [0.5647, 0.8825, 0.6776, 0.7755, 0.8403, 0.7976, 0.1029, 0.3738, 0.3651,
+         0.8124],
+        [0.8008, 0.9184, 0.6838, 0.8589, 0.2416, 0.1348, 0.4783, 0.6870, 0.1693,
+         0.0395],
+        [0.9643, 0.0277, 0.8017, 0.7995, 0.6624, 0.3226, 0.2206, 0.5391, 0.6127,
+         0.4243],
+        [0.2516, 0.9852, 0.1335, 0.5399, 0.4029, 0.4137, 0.1001, 0.2903, 0.5229,
+         0.2437],
+        [0.9501, 0.2892, 0.1385, 0.5175, 0.3126, 0.3554, 0.0327, 0.4469, 0.7996,
+         0.5141],
+        [0.8318, 0.0232, 0.7671, 0.3725, 0.5275, 0.5932, 0.4130, 0.0674, 0.6679,
+         0.3020],
+        [0.8896, 0.8445, 0.1389, 0.6007, 0.2264, 0.4166, 0.2434, 0.2771, 0.8830,
+         0.8717],
+        [0.0959, 0.5815, 0.9831, 0.0316, 0.5509, 0.8841, 0.9690, 0.3801, 0.0050,
+         0.0304],
+        [0.0889, 0.4986, 0.7731, 0.9471, 0.9747, 0.3263, 0.3284, 0.3658, 0.3737,
+         0.2488],
+        [0.2206, 0.8013, 0.0793, 0.3699, 0.0091, 0.3638, 0.9374, 0.0711, 0.3300,
+         0.2247],
+        [0.1575, 0.7349, 0.2683, 0.2796, 0.8319, 0.3358, 0.8872, 0.0147, 0.1178,
+         0.7851],
+        [0.2098, 0.5828, 0.2731, 0.1619, 0.1179, 0.1338, 0.0475, 0.3578, 0.9381,
+         0.2587],
+        [0.7627, 0.5297, 0.2282, 0.6864, 0.0052, 0.4479, 0.2788, 0.8159, 0.0713,
+         0.8314],
+        [0.2194, 0.1822, 0.7803, 0.2771, 0.2879, 0.2221, 0.8810, 0.5554, 0.9660,
+         0.5757],
+        [0.9027, 0.9497, 0.9023, 0.5925, 0.2834, 0.3430, 0.2379, 0.2779, 0.9601,
+         0.8752],
+        [0.0140, 0.8959, 0.8097, 0.2748, 0.5076, 0.7242, 0.7836, 0.6783, 0.5601,
+         0.5563],
+        [0.5167, 0.8616, 0.7124, 0.4505, 0.6957, 0.6611, 0.2697, 0.9450, 0.7909,
+         0.9219],
+        [0.5946, 0.7590, 0.7648, 0.3981, 0.5680, 0.2391, 0.7987, 0.2654, 0.3734,
+         0.8467],
+        [0.5592, 0.9477, 0.5612, 0.4415, 0.4700, 0.1568, 0.4236, 0.7492, 0.4708,
+         0.8834],
+        [0.9779, 0.7702, 0.8393, 0.8159, 0.0923, 0.2322, 0.4999, 0.3960, 0.7402,
+         0.5708],
+        [0.2219, 0.8757, 0.4795, 0.1892, 0.9647, 0.3701, 0.0142, 0.0511, 0.5223,
+         0.9154],
+        [0.3220, 0.4797, 0.6604, 0.3280, 0.7185, 0.3322, 0.5652, 0.5797, 0.9237,
+         0.5459],
+        [0.4602, 0.8394, 0.9370, 0.4036, 0.5521, 0.3011, 0.7641, 0.7499, 0.2600,
+         0.3677],
+        [0.4010, 0.0749, 0.3059, 0.2927, 0.5283, 0.7574, 0.4900, 0.9857, 0.2958,
+         0.1564],
+        [0.1649, 0.8387, 0.9091, 0.2889, 0.4575, 0.3663, 0.8207, 0.9104, 0.4030,
+         0.8474],
+        [0.4324, 0.1448, 0.8993, 0.3333, 0.8348, 0.8096, 0.0279, 0.0988, 0.9344,
+         0.8577],
+        [0.5230, 0.8928, 0.3790, 0.8395, 0.7739, 0.8803, 0.6713, 0.5706, 0.6505,
+         0.0720],
+        [0.0205, 0.6595, 0.4422, 0.5148, 0.6020, 0.3190, 0.0871, 0.0316, 0.8588,
+         0.9650],
+        [0.0049, 0.2904, 0.2455, 0.7340, 0.2124, 0.5723, 0.5622, 0.5950, 0.7986,
+         0.6212],
+        [0.5014, 0.7215, 0.9106, 0.6333, 0.2911, 0.3374, 0.1401, 0.2752, 0.4261,
+         0.7838],
+        [0.1712, 0.4834, 0.9845, 0.3140, 0.5984, 0.1907, 0.4106, 0.8423, 0.7333,
+         0.3457],
+        [0.3412, 0.8711, 0.0440, 0.6449, 0.0916, 0.1692, 0.5678, 0.6300, 0.1597,
+         0.0497],
+        [0.5966, 0.4091, 0.8116, 0.8519, 0.8421, 0.5087, 0.4172, 0.7078, 0.0686,
+         0.4411],
+        [0.7014, 0.5246, 0.2111, 0.2046, 0.9175, 0.9953, 0.0818, 0.2631, 0.3766,
+         0.7507],
+        [0.0366, 0.8099, 0.3946, 0.7858, 0.7760, 0.2326, 0.3207, 0.8977, 0.3139,
+         0.3334],
+        [0.7609, 0.6302, 0.4694, 0.8804, 0.7790, 0.6345, 0.9484, 0.4491, 0.2972,
+         0.4034],
+        [0.0915, 0.1046, 0.3340, 0.0200, 0.2427, 0.1681, 0.0763, 0.2258, 0.6224,
+         0.9511],
+        [0.1417, 0.9838, 0.8145, 0.8931, 0.5177, 0.2888, 0.4985, 0.8324, 0.8806,
+         0.6931],
+        [0.6569, 0.0605, 0.5283, 0.8616, 0.5687, 0.8828, 0.2737, 0.1994, 0.2484,
+         0.0320],
+        [0.9695, 0.0098, 0.2272, 0.1182, 0.7371, 0.0636, 0.1108, 0.0508, 0.1294,
+         0.4689],
+        [0.6840, 0.9446, 0.3046, 0.8872, 0.5192, 0.2386, 0.7066, 0.7377, 0.2422,
+         0.4221],
+        [0.7771, 0.0951, 0.6187, 0.2161, 0.1072, 0.9031, 0.5847, 0.3448, 0.7407,
+         0.8688],
+        [0.0300, 0.3617, 0.4648, 0.0164, 0.5278, 0.5435, 0.7755, 0.7717, 0.3453,
+         0.8104],
+        [0.8579, 0.2550, 0.0749, 0.1132, 0.9705, 0.8191, 0.0626, 0.7161, 0.2199,
+         0.5778],
+        [0.6880, 0.9483, 0.3373, 0.2278, 0.7206, 0.5753, 0.5318, 0.0142, 0.6469,
+         0.4673],
+        [0.0865, 0.1396, 0.9796, 0.1039, 0.7143, 0.5825, 0.9391, 0.6684, 0.9655,
+         0.8991],
+        [0.6007, 0.3454, 0.6680, 0.7239, 0.4785, 0.9508, 0.6799, 0.1367, 0.8473,
+         0.1273],
+        [0.4861, 0.4450, 0.2314, 0.7560, 0.7362, 0.9315, 0.2717, 0.1171, 0.5067,
+         0.6403],
+        [0.7099, 0.5703, 0.8570, 0.0503, 0.8344, 0.9387, 0.4524, 0.4381, 0.8527,
+         0.5583]], dtype=torch.float64)
+tensor([[7.0000, 8.0000, 9.0000],
+        [0.5000, 0.0000, 0.7000]])
+tensor([[0., 0., 0., 0.],
+        [0., 0., 0., 0.],
+        [0., 0., 0., 0.]])
+tensor([[[1., 1.],
+         [1., 1.]],
+
+        [[1., 1.],
+         [1., 1.]]])
+tensor([[-0.9255,  0.9606, -0.2213, -1.3134,  0.9787],
+        [ 0.8829, -1.2203, -0.2274,  1.4039,  0.3928],
+        [-1.2930, -1.1342,  1.7217,  1.1270,  1.5338],
+        [-0.4693, -0.3837, -0.6092, -1.4485,  0.2569],
+        [ 1.5765, -0.3036, -0.2788, -0.9261, -0.7431]])
+tensor([[-0.9255,  0.9606, -0.2213, -1.3134,  0.9787],
+        [ 0.8829, -1.2203, -0.2274,  1.4039,  0.3928],
+        [-1.2930, -1.1342,  1.7217,  1.1270,  1.5338],
+        [-0.4693, -0.3837, -0.6092, -1.4485,  0.2569],
+        [ 1.5765, -0.3036, -0.2788, -0.9261, -0.7431]])
+tensor([[1., 1., 1., 1.],
+        [1., 1., 1., 1.]])
+tensor([[-0.9255,  0.9606, -0.2213, -1.3134,  0.9787, -0.9255,  0.9606, -0.2213,
+         -1.3134,  0.9787],
+        [ 0.8829, -1.2203, -0.2274,  1.4039,  0.3928,  0.8829, -1.2203, -0.2274,
+          1.4039,  0.3928],
+        [-1.2930, -1.1342,  1.7217,  1.1270,  1.5338, -1.2930, -1.1342,  1.7217,
+          1.1270,  1.5338],
+        [-0.4693, -0.3837, -0.6092, -1.4485,  0.2569, -0.4693, -0.3837, -0.6092,
+         -1.4485,  0.2569],
+        [ 1.5765, -0.3036, -0.2788, -0.9261, -0.7431,  1.5765, -0.3036, -0.2788,
+         -0.9261, -0.7431]])
+tensor([[-1.8511,  1.9211, -0.4425, -2.6269,  1.9575],
+        [ 1.7659, -2.4407, -0.4548,  2.8078,  0.7855],
+        [-2.5860, -2.2683,  3.4435,  2.2540,  3.0676],
+        [-0.9385, -0.7673, -1.2184, -2.8971,  0.5139],
+        [ 3.1530, -0.6071, -0.5576, -1.8521, -1.4863]])
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="TvL6c_cEboV_">
+<ol>
+<li><p>Inspect the attributes of some of the tensors you created with
+<code>shape,dtype,numel</code>.</p></li>
+<li><p>Indexing to access specific elements:
+<code>[[1, 2, 3], [4, 5, 6]]</code>, get the '2' element.</p></li>
+<li><p>Modify modify the '5' element to '10'</p></li>
+<li><p>Apply element-wise addition to two tensors.</p></li>
+<li><p>Apply element-wise multiplication to two tensors</p></li>
+<li><p>Apply a square root to a tensor.</p></li>
+<li><p>Create a tensor with random values from a uniform distribution
+between 0 and 1.</p></li>
+<li><p>Create a tensor with random values from a normal distribution
+with mean 0 and standard deviation 1</p></li>
+<li><p>Create a tensor with random values from a discrete uniform
+distribution between 1 and 10.</p></li>
+<li><p>Reshape a tensor from size <code>(2, 3)</code> to
+<code>(3, 2)</code></p></li>
+<li><p>Transpose a tensor</p></li>
+<li><p>Concatenate tensors along a specific dimension</p></li>
+<li><p>Stack tensors along a new dimension</p></li>
+</ol>
+</div>
+<div class="cell code" data-execution_count="18"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="d_eeWx27eLGJ" data-outputId="381a1b54-b59d-4867-9a0a-c004b515f27f">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co"># YOUR CODE HERE</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Q1</span></span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Shape: </span><span class="sc">{</span>t1<span class="sc">.</span>shape<span class="sc">}</span><span class="ss">, Dtype: </span><span class="sc">{</span>t1<span class="sc">.</span>dtype<span class="sc">}</span><span class="ss">, Number of elements: </span><span class="sc">{</span>t1<span class="sc">.</span>numel()<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Q2</span></span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>t2<span class="op">=</span>torch.tensor([[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>], [<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>]])</span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t2[<span class="dv">0</span>,<span class="dv">1</span>])</span>
+<span id="cb47-7"><a href="#cb47-7" aria-hidden="true" tabindex="-1"></a><span class="co">#Q3</span></span>
+<span id="cb47-8"><a href="#cb47-8" aria-hidden="true" tabindex="-1"></a>t2[<span class="dv">1</span>,<span class="dv">1</span>]<span class="op">=</span><span class="dv">10</span></span>
+<span id="cb47-9"><a href="#cb47-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t2)</span>
+<span id="cb47-10"><a href="#cb47-10" aria-hidden="true" tabindex="-1"></a><span class="co">#Q4</span></span>
+<span id="cb47-11"><a href="#cb47-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t6<span class="op">+</span>t7)</span>
+<span id="cb47-12"><a href="#cb47-12" aria-hidden="true" tabindex="-1"></a><span class="co">#Q5</span></span>
+<span id="cb47-13"><a href="#cb47-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t6<span class="op">*</span>t7)</span>
+<span id="cb47-14"><a href="#cb47-14" aria-hidden="true" tabindex="-1"></a><span class="co">#Q6</span></span>
+<span id="cb47-15"><a href="#cb47-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(torch.sqrt(t6))</span>
+<span id="cb47-16"><a href="#cb47-16" aria-hidden="true" tabindex="-1"></a><span class="co">#Q7</span></span>
+<span id="cb47-17"><a href="#cb47-17" aria-hidden="true" tabindex="-1"></a>t7<span class="op">=</span>torch.rand(<span class="dv">10</span>)</span>
+<span id="cb47-18"><a href="#cb47-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t7)</span>
+<span id="cb47-19"><a href="#cb47-19" aria-hidden="true" tabindex="-1"></a><span class="co">#Q8</span></span>
+<span id="cb47-20"><a href="#cb47-20" aria-hidden="true" tabindex="-1"></a>t8<span class="op">=</span>torch.randn(<span class="dv">10</span>)</span>
+<span id="cb47-21"><a href="#cb47-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t8)</span>
+<span id="cb47-22"><a href="#cb47-22" aria-hidden="true" tabindex="-1"></a><span class="co">#Q9</span></span>
+<span id="cb47-23"><a href="#cb47-23" aria-hidden="true" tabindex="-1"></a>t9<span class="op">=</span>torch.randint(<span class="dv">1</span>,<span class="dv">10</span>,size<span class="op">=</span>(<span class="dv">10</span>,))</span>
+<span id="cb47-24"><a href="#cb47-24" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t9)</span>
+<span id="cb47-25"><a href="#cb47-25" aria-hidden="true" tabindex="-1"></a><span class="co">#Q10</span></span>
+<span id="cb47-26"><a href="#cb47-26" aria-hidden="true" tabindex="-1"></a>t10<span class="op">=</span>torch.rand(<span class="dv">2</span>,<span class="dv">3</span>)</span>
+<span id="cb47-27"><a href="#cb47-27" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t10)</span>
+<span id="cb47-28"><a href="#cb47-28" aria-hidden="true" tabindex="-1"></a>t10<span class="op">=</span>t10.reshape(<span class="dv">3</span>,<span class="dv">2</span>)</span>
+<span id="cb47-29"><a href="#cb47-29" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t10)</span>
+<span id="cb47-30"><a href="#cb47-30" aria-hidden="true" tabindex="-1"></a><span class="co">#Q11</span></span>
+<span id="cb47-31"><a href="#cb47-31" aria-hidden="true" tabindex="-1"></a>t11<span class="op">=</span>t10.T</span>
+<span id="cb47-32"><a href="#cb47-32" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t11)</span>
+<span id="cb47-33"><a href="#cb47-33" aria-hidden="true" tabindex="-1"></a><span class="co">#Q12</span></span>
+<span id="cb47-34"><a href="#cb47-34" aria-hidden="true" tabindex="-1"></a>t12<span class="op">=</span>torch.cat((t6,t6),dim<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb47-35"><a href="#cb47-35" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t12)</span>
+<span id="cb47-36"><a href="#cb47-36" aria-hidden="true" tabindex="-1"></a><span class="co">#Q13</span></span>
+<span id="cb47-37"><a href="#cb47-37" aria-hidden="true" tabindex="-1"></a>t13<span class="op">=</span>torch.stack((t6,t6),dim<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb47-38"><a href="#cb47-38" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t13)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Shape: torch.Size([3]), Dtype: torch.int64, Number of elements: 3
+tensor(2)
+tensor([[ 1,  2,  3],
+        [ 4, 10,  6]])
+tensor([[-1.8511,  1.9211, -0.4425, -2.6269,  1.9575],
+        [ 1.7659, -2.4407, -0.4548,  2.8078,  0.7855],
+        [-2.5860, -2.2683,  3.4435,  2.2540,  3.0676],
+        [-0.9385, -0.7673, -1.2184, -2.8971,  0.5139],
+        [ 3.1530, -0.6071, -0.5576, -1.8521, -1.4863]])
+tensor([[0.8566, 0.9227, 0.0490, 1.7251, 0.9579],
+        [0.7796, 1.4892, 0.0517, 1.9710, 0.1543],
+        [1.6719, 1.2863, 2.9643, 1.2701, 2.3526],
+        [0.2202, 0.1472, 0.3711, 2.0983, 0.0660],
+        [2.4854, 0.0921, 0.0777, 0.8576, 0.5523]])
+tensor([[   nan, 0.9801,    nan,    nan, 0.9893],
+        [0.9396,    nan,    nan, 1.1849, 0.6267],
+        [   nan,    nan, 1.3121, 1.0616, 1.2385],
+        [   nan,    nan,    nan,    nan, 0.5069],
+        [1.2556,    nan,    nan,    nan,    nan]])
+tensor([0.5495, 0.4933, 0.2006, 0.4072, 0.1907, 0.2981, 0.0372, 0.1475, 0.0621,
+        0.6993])
+tensor([ 0.4943, -1.3184, -0.9766,  1.7268,  0.7236,  0.3624,  0.3201, -0.6393,
+        -0.2589, -0.4901])
+tensor([7, 8, 6, 9, 8, 8, 8, 3, 1, 3])
+tensor([[0.7120, 0.5574, 0.5840],
+        [0.9976, 0.5272, 0.1190]])
+tensor([[0.7120, 0.5574],
+        [0.5840, 0.9976],
+        [0.5272, 0.1190]])
+tensor([[0.7120, 0.5840, 0.5272],
+        [0.5574, 0.9976, 0.1190]])
+tensor([[-0.9255,  0.9606, -0.2213, -1.3134,  0.9787],
+        [ 0.8829, -1.2203, -0.2274,  1.4039,  0.3928],
+        [-1.2930, -1.1342,  1.7217,  1.1270,  1.5338],
+        [-0.4693, -0.3837, -0.6092, -1.4485,  0.2569],
+        [ 1.5765, -0.3036, -0.2788, -0.9261, -0.7431],
+        [-0.9255,  0.9606, -0.2213, -1.3134,  0.9787],
+        [ 0.8829, -1.2203, -0.2274,  1.4039,  0.3928],
+        [-1.2930, -1.1342,  1.7217,  1.1270,  1.5338],
+        [-0.4693, -0.3837, -0.6092, -1.4485,  0.2569],
+        [ 1.5765, -0.3036, -0.2788, -0.9261, -0.7431]])
+tensor([[[-0.9255,  0.9606, -0.2213, -1.3134,  0.9787],
+         [ 0.8829, -1.2203, -0.2274,  1.4039,  0.3928],
+         [-1.2930, -1.1342,  1.7217,  1.1270,  1.5338],
+         [-0.4693, -0.3837, -0.6092, -1.4485,  0.2569],
+         [ 1.5765, -0.3036, -0.2788, -0.9261, -0.7431]],
+
+        [[-0.9255,  0.9606, -0.2213, -1.3134,  0.9787],
+         [ 0.8829, -1.2203, -0.2274,  1.4039,  0.3928],
+         [-1.2930, -1.1342,  1.7217,  1.1270,  1.5338],
+         [-0.4693, -0.3837, -0.6092, -1.4485,  0.2569],
+         [ 1.5765, -0.3036, -0.2788, -0.9261, -0.7431]]])
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="q5Ag4aLvd186">
+<ol>
+<li>Sum of all elements in a tensor.</li>
+<li>Mean along a specific dimension</li>
+<li>Find the minimum and maximum values in a tensor</li>
+<li>Find the indices of minimum and maximum values in a tensor</li>
+</ol>
+</div>
+<div class="cell code" data-execution_count="19"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="YS_zcuzPeL2y" data-outputId="220bb0d3-ae38-49e4-82de-c5de7039d7b2">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="co"># YOUR CODE HERE</span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Q1</span></span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t6.<span class="bu">sum</span>())</span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Q2</span></span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t6.mean(dim<span class="op">=</span><span class="dv">0</span>))</span>
+<span id="cb49-6"><a href="#cb49-6" aria-hidden="true" tabindex="-1"></a><span class="co">#Q3</span></span>
+<span id="cb49-7"><a href="#cb49-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t6.<span class="bu">min</span>())</span>
+<span id="cb49-8"><a href="#cb49-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t6.<span class="bu">max</span>())</span>
+<span id="cb49-9"><a href="#cb49-9" aria-hidden="true" tabindex="-1"></a><span class="co">#Q4</span></span>
+<span id="cb49-10"><a href="#cb49-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t6.argmin())</span>
+<span id="cb49-11"><a href="#cb49-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(t6.argmax())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>tensor(-0.6625)
+tensor([-0.0457, -0.4162,  0.0770, -0.2314,  0.4838])
+tensor(-1.4485)
+tensor(1.7217)
+tensor(18)
+tensor(12)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="ZUhF40qoc9lh">
+<p>Broadcasting:</p>
+</div>
+<div class="cell code" data-execution_count="20"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="WZ3jXo9F7YyB" data-outputId="ae4d514d-9945-44da-9c68-ec733dc0715e">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Broadcasting with scalars</span></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>tensor_a <span class="op">=</span> torch.tensor([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>])</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>scalar_b <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>result_broadcast_scalar <span class="op">=</span> tensor_a <span class="op">+</span> scalar_b</span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Broadcasting with scalars:&quot;</span>)</span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(result_broadcast_scalar)  <span class="co"># Output: tensor([6, 7, 8])</span></span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Broadcasting with different shapes</span></span>
+<span id="cb51-10"><a href="#cb51-10" aria-hidden="true" tabindex="-1"></a>tensor_c <span class="op">=</span> torch.tensor([[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>], [<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>]])</span>
+<span id="cb51-11"><a href="#cb51-11" aria-hidden="true" tabindex="-1"></a>tensor_d <span class="op">=</span> torch.tensor([<span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>])</span>
+<span id="cb51-12"><a href="#cb51-12" aria-hidden="true" tabindex="-1"></a>result_broadcast_shape <span class="op">=</span> tensor_c <span class="op">+</span> tensor_d</span>
+<span id="cb51-13"><a href="#cb51-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Broadcasting with different shapes:&quot;</span>)</span>
+<span id="cb51-14"><a href="#cb51-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(result_broadcast_shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Broadcasting with scalars:
+tensor([6, 7, 8])
+Broadcasting with different shapes:
+tensor([[11, 22, 33],
+        [14, 25, 36]])
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="21"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="CTTx-zG3dFzd" data-outputId="31f2ac87-5fe5-454b-d8b0-5bf2ee72aaff">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Broadcasting with multidimensional tensors</span></span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>tensor_a <span class="op">=</span> torch.tensor([[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>], [<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>]])</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>tensor_b <span class="op">=</span> torch.tensor([<span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>])</span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>result_broadcast <span class="op">=</span> tensor_a <span class="op">+</span> tensor_b</span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Broadcasting with multidimensional tensors:&quot;</span>)</span>
+<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(result_broadcast)</span>
+<span id="cb53-7"><a href="#cb53-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-8"><a href="#cb53-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Common broadcasting pitfalls</span></span>
+<span id="cb53-9"><a href="#cb53-9" aria-hidden="true" tabindex="-1"></a>tensor_c <span class="op">=</span> torch.tensor([[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>], [<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>]])</span>
+<span id="cb53-10"><a href="#cb53-10" aria-hidden="true" tabindex="-1"></a>tensor_d <span class="op">=</span> torch.tensor([<span class="dv">10</span>, <span class="dv">20</span>])</span>
+<span id="cb53-11"><a href="#cb53-11" aria-hidden="true" tabindex="-1"></a><span class="co"># The following line will raise a RuntimeError</span></span>
+<span id="cb53-12"><a href="#cb53-12" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb53-13"><a href="#cb53-13" aria-hidden="true" tabindex="-1"></a>    result_pitfall <span class="op">=</span> tensor_c <span class="op">+</span> tensor_d</span>
+<span id="cb53-14"><a href="#cb53-14" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span> <span class="pp">RuntimeError</span> <span class="im">as</span> e:</span>
+<span id="cb53-15"><a href="#cb53-15" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;RuntimeError:&quot;</span>, e)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Broadcasting with multidimensional tensors:
+tensor([[11, 22, 33],
+        [14, 25, 36]])
+RuntimeError: The size of tensor a (3) must match the size of tensor b (2) at non-singleton dimension 1
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="d8XnR20UdL9x">
+<p>Device specification</p>
+</div>
+<div class="cell code" data-execution_count="22"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="UmOPlcDndLei" data-outputId="eed27f3a-6846-434e-cda0-fac05fba40e1">
+<div class="sourceCode" id="cb55"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Code examples for device configuration and availability</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Check if GPU is available</span></span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a>is_gpu_available <span class="op">=</span> torch.cuda.is_available()</span>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Is GPU available?&quot;</span>, is_gpu_available)</span>
+<span id="cb55-6"><a href="#cb55-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb55-7"><a href="#cb55-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Specify device for tensor operations</span></span>
+<span id="cb55-8"><a href="#cb55-8" aria-hidden="true" tabindex="-1"></a>device <span class="op">=</span> torch.device(<span class="st">&#39;cuda&#39;</span> <span class="cf">if</span> is_gpu_available <span class="cf">else</span> <span class="st">&#39;cpu&#39;</span>)</span>
+<span id="cb55-9"><a href="#cb55-9" aria-hidden="true" tabindex="-1"></a>tensor_gpu <span class="op">=</span> torch.tensor([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>], device<span class="op">=</span>device)</span>
+<span id="cb55-10"><a href="#cb55-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Tensor on GPU:&quot;</span>, tensor_gpu)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Is GPU available? False
+Tensor on GPU: tensor([1, 2, 3])
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="aTb9_VWsgCkv">
+<p>Dataloader practice:</p>
+</div>
+<div class="cell markdown" id="A-XSmZ7Tffq2">
+<p>Using the Fashion MNIST dataloader object, iterate over the batches,
+and calculate an interesting statistic. Make sure the statistic
+represent the entire data, not just a single batch. Hint- find a way to
+"update" the statistic along the batches.</p>
+</div>
+<div class="cell code" data-execution_count="23"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ED4PArw7e43C" data-outputId="d079e0df-5a9c-4f6e-a93a-f8f01194cdee">
+<div class="sourceCode" id="cb57"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Your code here</span></span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> torchvision <span class="im">import</span> transforms</span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>transform <span class="op">=</span> transforms.ToTensor()</span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>fashion_mnist <span class="op">=</span> datasets.FashionMNIST(root<span class="op">=</span><span class="st">&#39;data&#39;</span>, train<span class="op">=</span><span class="va">True</span>, transform<span class="op">=</span>transform, download<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>batch_size <span class="op">=</span> <span class="dv">64</span></span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>dataloader <span class="op">=</span> DataLoader(fashion_mnist, batch_size<span class="op">=</span>batch_size, shuffle<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb57-7"><a href="#cb57-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-8"><a href="#cb57-8" aria-hidden="true" tabindex="-1"></a>cumulative_sum <span class="op">=</span> <span class="fl">0.0</span></span>
+<span id="cb57-9"><a href="#cb57-9" aria-hidden="true" tabindex="-1"></a>total_pixels <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb57-10"><a href="#cb57-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-11"><a href="#cb57-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> images, _ <span class="kw">in</span> dataloader:</span>
+<span id="cb57-12"><a href="#cb57-12" aria-hidden="true" tabindex="-1"></a>    batch_sum <span class="op">=</span> images.<span class="bu">sum</span>()</span>
+<span id="cb57-13"><a href="#cb57-13" aria-hidden="true" tabindex="-1"></a>    batch_pixels <span class="op">=</span> images.numel()</span>
+<span id="cb57-14"><a href="#cb57-14" aria-hidden="true" tabindex="-1"></a>    cumulative_sum <span class="op">+=</span> batch_sum.item()</span>
+<span id="cb57-15"><a href="#cb57-15" aria-hidden="true" tabindex="-1"></a>    total_pixels <span class="op">+=</span> batch_pixels</span>
+<span id="cb57-16"><a href="#cb57-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-17"><a href="#cb57-17" aria-hidden="true" tabindex="-1"></a>mean_pixel_intensity <span class="op">=</span> cumulative_sum <span class="op">/</span> total_pixels</span>
+<span id="cb57-18"><a href="#cb57-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Mean pixel intensity across the entire Fashion MNIST dataset: </span><span class="sc">{</span>mean_pixel_intensity<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mean pixel intensity across the entire Fashion MNIST dataset: 0.2860
+</code></pre>
+</div>
+</div>
+<section id="how-to-export-an-html-file-of-your-ipynb"
+class="cell markdown" id="NrhHnCUOXeTY">
+<h2>How to export an <code>HTML</code> file of your
+<code>ipynb</code></h2>
+</section>
+<div class="cell markdown" id="-yvoSJjmXqah">
+<ol>
+<li>Save your notebook and make sure all the cells have the expected
+output.</li>
+<li>Download your notebook to your local machine.
+<code>File--&gt;Download--&gt;Download ipynb</code></li>
+<li>Reupload it so Colab can see it : Click on the Files icon on the far
+left bar--&gt; you should see your current kernel folder --&gt; click
+<code>upload to session storage</code> --&gt; upload your file.</li>
+<li>Execute the following:
+<code>!jupyter nbconvert --to html /content/NOTEBOOKFILE.ipynb</code></li>
+<li>You should see the html file produced in your kernel's current
+folder. You can download it locally. <a href="https://">link
+text</a></li>
+</ol>
+</div>
+<div class="cell markdown" id="ZKpF6F5E741a">
+<p>END OF PyTorch BASICS</p>
+</div>
+</body>
+</html>
